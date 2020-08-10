@@ -1,0 +1,73 @@
+### ADD PERSON
+
+POST http://localhost:8080/addPerson
+Content-Type: application/json
+
+{
+  "name": "James Bond"
+}
+
+###
+### ADD PERSON
+
+POST http://localhost:8080/addPerson
+Content-Type: application/json
+
+{
+  "name": "Anna Jones"
+}
+
+###
+### ADD PERSON
+
+POST http://localhost:8080/addPerson
+Content-Type: application/json
+
+{
+  "name": "Nelson Mandela"
+}
+
+###
+### GET ALL PEOPLE
+
+GET http://localhost:8080/getPeople
+Accept: application/json
+
+<> 2020-08-10T114934.200.json
+<> 2020-08-10T114850.200.json
+<> 2020-08-10T114743.200.json
+<> 2020-08-10T114717.200.json
+<> 2020-08-10T114400.200.json
+<> 2020-08-10T114339.200.json
+<> 2020-08-10T114244.200.json
+<> 2020-08-10T114158.200.json
+<> 2020-08-10T114044.200.json
+<> 2020-08-10T111943.200.json
+
+
+###
+### GET PERSON
+
+GET http://localhost:8080/getPerson/b4d45b12-f9f3-43b8-87fc-7fc54fae777d
+Content-Type: application/json
+
+<> 2020-08-10T114730.200.json
+<> 2020-08-10T114144.200.json
+
+
+###
+### DELETE PERSON
+
+DELETE http://localhost:8080/deletePerson/b4d45b12-f9f3-43b8-87fc-7fc54fae777d
+Content-Type: application/json
+
+
+###
+### UPDATE PERSON
+
+PUT http://localhost:8080/updatePerson/910bc430-2297-492e-928a-7d18f8da19b9
+Content-Type: application/json
+
+{
+  "name": "Alex Corin"
+}
