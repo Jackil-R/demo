@@ -58,14 +58,14 @@ Content-Type: application/json
 ###
 ### DELETE PERSON
 
-DELETE http://localhost:8080/deletePerson/b4d45b12-f9f3-43b8-87fc-7fc54fae777d
+DELETE http://localhost:8080/deletePerson/424d8e99-789c-4915-843f-be614f2edf6e
 Content-Type: application/json
 
 
 ###
 ### UPDATE PERSON
 
-PUT http://localhost:8080/updatePerson/910bc430-2297-492e-928a-7d18f8da19b9
+PUT http://localhost:8080/updatePerson/cde67ef7-7457-4cc7-8652-276357392e97
 Content-Type: application/json
 
 {
